@@ -9,13 +9,19 @@ const projects = [
         name: "CSGrok",
         description: "HTTP tunnel for sharing localhost websites to the public",
         tech: ["C#", "ASP.NET", "HTML", "CSS", "JavaScript"],
-        link: "https://csgrok.com"
+        link: "https://tunnels.julin.dev"
     },
     {
         name: "SongLinker",
         description: "Create and share a universal song link easily for all music platforms",
         tech: ["TS", "Express", "HTML", "CSS", "JavaScript", "MongoDB"],
-        link: "https://songlinker.net"
+        link: null
+    },
+    {
+        name: "DevIcons",
+        description: "Simple way to use icons in portfolio",
+        tech: ["Express", "HTML", "CSS", "JavaScript"],
+        link: "https://icons.julin.dev",
     }
 ]
 

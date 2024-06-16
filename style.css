@@ -61,12 +61,6 @@ body {
     margin-right: 20px;
 }
 
-.tech-stack img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-
 .spacer {
     margin: 0 10px 0 10px;
 }
@@ -125,8 +119,6 @@ body {
 }
 
 .contact .email img {
-    width: 40px;
-    height: 40px;
     margin-right: 20px;
 }
 
