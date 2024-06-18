@@ -71,3 +71,7 @@ function sendMail() {
     window.open("mailto:jul1n@icloud.com", "_blank");
     navigator.clipboard.writeText("jul1n@icloud.com");
 }
+
+function openGithub() {
+    window.open("https://github.com/q1aa", "_blank");
+}
