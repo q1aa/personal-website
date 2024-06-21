@@ -47,6 +47,10 @@ body {
     margin-top: 20px;
 }
 
+.about .text .text-seperater {
+    display: none;
+}
+
 .tech-stack {
     align-items: center;
     display: flex;
@@ -232,5 +236,11 @@ body {
     .projects .project {
         width: 100%;
         margin: 20px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .about .text .text-seperater {
+        display: block;
     }
 }

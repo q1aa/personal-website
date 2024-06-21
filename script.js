@@ -41,12 +41,21 @@ function generateProjectHTML(project) {
                         <p class="key">"name": <span class="value">"${project.name}",</span></p>
                         <p class="key">"description": <span class="value">"${project.description}"</span>,</p>
                         <p class="key">"tech": <span class="value">${project.tech},</span></p>
-                        <p class="key">"link": <a href="${project.link}"><span class="value">"${project.link}"</span></a></p>
+                        ${getLinkElement(project.link)}
                     </div>
                     <p class="bracket">}</p>
                 </div>
             </div>
     `
+}
+
+function getLinkElement(link) {
+    if (link) {
+        return `<p class="key">"link": <a href="${link}" target="_blank"><span class="value">"${link}"</span></a></p>`;
+    } else {
+        return `<p class="key">"link": <a><span class="value">"${link}"</span></a></p>`;
+    }
+
 }
 
 function focusElement(className) {
