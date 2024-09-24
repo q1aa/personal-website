@@ -191,6 +191,7 @@ body {
 @media (max-width: 850px) {
     .header-holder {
         padding: 20px;
+        position: relative;
     }
 
     .header-holder .pages-holder {
