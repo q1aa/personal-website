@@ -12,19 +12,14 @@ const projects = [
         link: "https://tunnels.julin.dev"
     },
     {
-        name: "SongLinker",
-        description: "Create and share a universal song link easily for all music platforms",
-        tech: ["TS", "Express", "HTML", "CSS", "JavaScript", "MongoDB"],
-        link: null
-    },
-    {
-        name: "DevIcons",
-        description: "Simple way to use icons in portfolio",
-        tech: ["Express", "HTML", "CSS", "JavaScript"],
-        link: "https://icons.julin.dev",
+        name: "ExpressCS",
+        description: "A WebFramework written in C# designed to be simular to express.js",
+        tech: ["C#"],
+        link: "https://github.com/q1aa/ExpressCS"
     }
 ]
 
+    
 const projectsContainer = document.querySelector(".projects");
 
 projects.forEach(project => {
