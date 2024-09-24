@@ -57,7 +57,7 @@ function focusElement(className) {
     const element = document.querySelector(`.${className}`);
     element.scrollIntoView({ behavior: "smooth" });
     element.style.borderRadius = "5px";
-    let opacity = 1;
+    /*let opacity = 1;
     let timer = setInterval(() => {
         if (opacity <= 0) {
             clearInterval(timer);
@@ -68,7 +68,7 @@ function focusElement(className) {
             element.style.border = `2px solid rgba(${blue}, 0, ${red}, ${opacity})`;
             opacity -= 0.02;
         }
-    }, 50);
+    }, 50);*/
 }
 
 function sendMail() {

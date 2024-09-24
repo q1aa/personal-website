@@ -13,6 +13,10 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .header-holder .pages-holder {
