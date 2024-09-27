@@ -60,6 +60,8 @@ body {
     align-items: center;
     display: flex;
     margin-top: 50px;
+    width: 100%;
+    justify-content: center;
 }
 
 .logo-holder {
@@ -67,7 +69,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
 }
 
 .spacer {
